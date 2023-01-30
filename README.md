@@ -7,7 +7,7 @@ This is my test program in assembler. It runs through the DAA input values 0-255
 
 ### out.txt
 This is the output from the test program.
-A line in this file has the input value, the DAA output value, and the FLAGS , all in hex.
+A line in this file has the input value, the DAA output value, and the FLAGS, all in hex.
 
 ### sim.py
 This simulates the pseudocode for DAA, producing an output file that should match out.txt. With the flag `--intel`, it uses the algorithm in the Intel documentation. With no flag, it uses a simplified algorithm.
